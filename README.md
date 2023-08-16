@@ -1,4 +1,4 @@
-## random-pattern-suku (modified SuDoKu game)
+## random-pattern-suku (modified sudoku game)
 
 The provided Python code performs the following tasks:
 
@@ -30,5 +30,5 @@ It calls the `calculate_sums()` function with the random_pattern and prints the 
 
 It calls the `calculate_hints()` function with the random_pattern and prints the resulting hints.
 
-### Summary
+### summary
 This code generates a random pattern of digits, calculates sums and hints based on specific groups of digits within the pattern, and then prints the random pattern, sums, and hints. Each time the code is run, a new random pattern is generated, leading to different sums and hints.
