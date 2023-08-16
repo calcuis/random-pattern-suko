@@ -1,4 +1,4 @@
-## random-pattern-suku
+## random-pattern-suku (modified SuDoKu game)
 
 The provided Python code performs the following tasks:
 
