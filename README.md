@@ -14,7 +14,7 @@ It converts the shuffled digits into a string named pattern by joining them toge
 
 The generated pattern is returned by the function.
 
-**Calculate Sums:** Another function named `calculate_sums(pattern)` is defined. This function calculates the sums of specific groups of digits within the pattern. It does so by:
+**Calculate Sums:** another function named `calculate_sums(pattern)` is defined. This function calculates the sums of specific groups of digits within the pattern. It does so by:
 
 Defining four sets of indices (i, j, k, l) that correspond to groups of digits within the pattern.
 
@@ -22,7 +22,7 @@ For each set of indices, it calculates the sum of the digits at those positions 
 
 The calculated sums are stored in a list named sums, and this list is returned by the function.
 
-**Calculate Hints:** Similarly, a function named `calculate_hints(pattern)` is defined. This function calculates hints for specific groups of digits within the pattern. It operates similarly to the calculate_sums function, but instead of calculating sums, it calculates the sum of digits for each group of indices. The calculated hint sums are stored in a list named hints, which is returned by the function.
+**Calculate Hints:** similarly, a function named `calculate_hints(pattern)` is defined. This function calculates hints for specific groups of digits within the pattern. It operates similarly to the calculate_sums function, but instead of calculating sums, it calculates the sum of digits for each group of indices. The calculated hint sums are stored in a list named hints, which is returned by the function.
 
 **Generate and Display Results:** The code generates a random pattern using the `generate_random_pattern()` function and stores it in the `random_pattern` variable. Then, it prints the generated random pattern.
 
