@@ -1,4 +1,4 @@
-## random-pattern-suku (modified sudoku game)
+## random-pattern-suko (modified sudoku game)
 
 The provided Python code performs the following tasks:
 
