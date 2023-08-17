@@ -9,15 +9,13 @@ def generate_random_pattern():
 def calculate_sums(pattern):
     sums = []
     for indices in [(0, 1, 3, 4), (1, 2, 4, 5), (3, 4, 6, 7), (4, 5, 7, 8)]:
-        current_sum = sum(int(pattern[i]) for i in indices)
-        sums.append(current_sum)
+        sums.append(sum(int(pattern[i]) for i in indices))
     return sums
 
 def calculate_hints(pattern):
     hints = []
     for indices in [(0, 1, 3), (2, 4, 5, 8), (6, 7)]:
-        current_hint = sum(int(pattern[i]) for i in indices)
-        hints.append(current_hint)
+        hints.append(sum(int(pattern[i]) for i in indices))
     return hints
 
 random_pattern = generate_random_pattern()
